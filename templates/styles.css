@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+    font-size: 18px; /* Increased font size */
+}
+
+header {
+    background-color: #004d99;
+    color: white;
+    padding: 30px 0;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 3em; /* Increased font size */
+    margin-bottom: 10px;
+}
+
+header .subtitle {
+    text-align: center;
+    font-size: 1.5em; /* Increased font size */
+    margin-top: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+#project-info, #project-outline, #visualizations {
+    margin-bottom: 50px; /* Increased space between sections */
+}
+
+h2 {
+    font-size: 2.5em; /* Increased font size */
+    color: #333;
+    margin-bottom: 20px; /* Increased space below headings */
+}
+
+h3 {
+    font-size: 2em; /* Increased font size */
+    color: #333;
+    margin-bottom: 15px; /* Increased space below sub-headings */
+}
+
+p {
+    margin-bottom: 20px; /* Increased space between paragraphs */
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 20px; /* Increased space below lists */
+}
+
+ul li {
+    margin-bottom: 12px; /* Increased space between list items */
+}
+
+.outline-item {
+    margin-bottom: 40px; /* Increased space between outline items */
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px; /* Increased gap between images */
+    margin-top: 40px;
+}
+
+.image-gallery img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+    margin-top: 50px; /* Increased space above footer */
+}
+
+footer p {
+    font-size: 1.2em; /* Increased font size */
+}
+
+footer a {
+    color: #f4f4f9;
+    text-decoration: none;
+}
